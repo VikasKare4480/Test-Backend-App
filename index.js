@@ -60,3 +60,8 @@ app.get('/youtube', (req, res) => {
 
     res.send('Youtubers Responce');
 })
+
+app.get('/github', (req, res) => {
+
+    res.json(userData);
+})
